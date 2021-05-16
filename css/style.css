@@ -131,3 +131,9 @@ body {
 		content: url("https://2zip.github.io/Stats-Preview-card/images/image-header-desktop.jpg");
 	}
 }
+
+@media (min-width: 1024px) {
+	.main-text {
+		margin: auto;
+	}
+}
