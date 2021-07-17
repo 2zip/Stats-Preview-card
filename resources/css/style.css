@@ -118,6 +118,30 @@ body {
 	text-decoration: underline;
 }
 
+/* Tablet Layout (640w - 832w) */
+
+@media (min-width: 40rem) and (max-width: 52rem) {
+	.image-section {
+		height: 350px;
+	}
+
+	.image {
+		height: 100%;
+	}
+}
+
+/* Tablet Layout (832w - 1024w) */
+
+@media (min-width: 52rem) and (max-width: 64rem) {
+	.image-section {
+		height: 450px;
+	}
+
+	.image {
+		height: 100%;
+	}
+}
+
 /* Desktop Layout (1024w) */
 
 @media (min-width: 64rem) {
