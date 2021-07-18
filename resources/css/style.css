@@ -142,18 +142,6 @@ body {
 	}
 }
 
-/* Desktop Layout (1024w - 1280w) */
-
-@media (min-width: 64rem) and (max-width: 80rem) {
-	.image-section {
-		height: 524px;
-	}
-
-	.stats-title + .stats-title {
-		margin-left: 1rem;
-	}
-}
-
 /* Desktop Layout (1024w) */
 
 @media (min-width: 64rem) {
@@ -212,5 +200,17 @@ body {
 	.stats-title,
 	.stats-title:last-of-type {
 		padding: 0;
+	}
+}
+
+/* Desktop Layout (1024w - 1280w) */
+
+@media (min-width: 64rem) and (max-width: 80rem) {
+	.image-section {
+		height: 524px;
+	}
+
+	.stats-title + .stats-title {
+		margin-left: 1rem;
 	}
 }
