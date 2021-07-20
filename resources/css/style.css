@@ -30,7 +30,7 @@ body {
 
 .container {
 	width: 87.2025%;
-	max-height: 908px;
+	max-height: 56.75rem;
 	margin: 6.25rem auto;
 	background: var(--card-background);
 	border-radius: 0.5rem;
@@ -212,5 +212,36 @@ body {
 	.stats-title,
 	.stats-title:last-of-type {
 		padding: 0;
+	}
+}
+
+/* Desktop Layout (1840w) */
+
+@media (min-width: 115rem) {
+	.container {
+		height: 35rem;
+	}
+
+	.text-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.title-section {
+		font-size: 3rem;
+	}
+
+	.paragraph-section {
+		font-size: 1.25rem;
+		line-height: 1.6;
+	}
+
+	.stats-title {
+		font-size: 2rem;
+	}
+
+	.stats-title-span {
+		font-size: 0.85rem;
 	}
 }
